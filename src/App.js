@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
     
-      <h1>IdCard</h1>
+      <h1>Iteration 1 | Component: IdCard</h1>
 
       <IdCard
         lastName="Doe"
@@ -31,22 +31,22 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
-      <h1>Greetings</h1>
+      <h1>Iteration 2 | Component: Greetings</h1>
 
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
 
-      <h1>Random</h1>
+      <h1> Iteration 3 | Component: Random</h1>
 
       <Random min={1} max={6} />
       <Random min={1} max={100} />
 
-      <h1>Box Color</h1>
+      <h1>Iteration 4 | Component: Box Color</h1>
 
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
 
-      <h1>Credit Card</h1>
+      <h1>Iteration 5 | Component: Credit Card</h1>
 
       <CreditCard
         type="Visa"
@@ -80,7 +80,7 @@ function App() {
         bgColor="#ddbb55"
         color="white"
       />
-      <h1>Rating</h1>
+      <h1>Iteration 6 | Component: Rating</h1>
 
       <Rating>0</Rating>
       <Rating>1.49</Rating>
@@ -89,7 +89,7 @@ function App() {
       <Rating>4</Rating>
       <Rating>5</Rating>
 
-      <h1>DriverCard</h1>
+      <h1>Iteration 7 | Component: DriverCard</h1>
 
       <DriverCard
         name="Travis Kalanick"
@@ -111,23 +111,23 @@ function App() {
         }}
       />
 
-      <h1>LikeButton</h1>
+      <h1>Iteration 8 | State: LikeButton</h1>
 
-      <h1>ClickablePicture</h1>
+      <h1>Iteration 9 | State: ClickablePicture</h1>
 
-      <h1>Dice</h1>
+      <h1>Iteration 10 | State: Dice</h1>
 
-      <h1>Carousel</h1>
+      <h1>Iteration 11 | State: Carousel</h1>
 
-      <h1>NumbersTable</h1>
+      <h1>Iteration 12 | List and keys: NumbersTable</h1>
 
-      <h1>Facebook (simple)</h1>
+      <h1>Iteration 13 | List and keys: Facebook (simple)</h1>
 
-      <h1>Facebook (advanced)</h1>
+      <h1>Iteration 14 | List and keys: Facebook (advanced)</h1>
 
-      <h1>SignUpPage</h1>
+      <h1>Iteration 15 | Form: SignUpPage</h1>
 
-      <h1>RGBColorPicker</h1>
+      <h1>Iteration 16 | Lifting State Up: RGBColorPicker</h1>
     </div>
   );
 }

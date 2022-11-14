@@ -2,10 +2,8 @@
 
 function BoxColor(props) {
     return (
-      <div className="border" >
-        rgb {props.r},{props.g},{props.b}
-        
-
+      <div className="border">
+        rgb ({props.r}{props.g}{props.b})
       </div>
     );
   }

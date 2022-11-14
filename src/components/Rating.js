@@ -31,7 +31,7 @@ function Rating(props) {
 
 
     return (
-      <div>
+      <div className="stars">
         {stars}
       </div>
     );
