@@ -7,6 +7,7 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 
+
 function App() {
   return (
     <div className="App">
@@ -48,6 +49,8 @@ function App() {
 
       <h1>Iteration 5 | Component: Credit Card</h1>
 
+      <div className="cards">
+    
       <CreditCard
         type="Visa"
         number="0123456789018845"
@@ -80,6 +83,9 @@ function App() {
         bgColor="#ddbb55"
         color="white"
       />
+      </div>
+
+
       <h1>Iteration 6 | Component: Rating</h1>
 
       <Rating>0</Rating>
